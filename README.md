@@ -1,5 +1,5 @@
 # Krakken
-# The Dynamic Config File Parser And Generator
+# The Dynamic Config File Parser And Generator [![Code Climate](https://codeclimate.com/github/samsheff/krakken.png)](https://codeclimate.com/github/samsheff/krakken)
 
 ### What is Krakken?
 
