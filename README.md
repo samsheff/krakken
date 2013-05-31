@@ -37,3 +37,5 @@ And to Parse:
 ### To Do
 
 Add the ability to add comments to a config file made by Krakken. So far we can parse comments that are started with '#' but they have to be added in by hand.
+
+### Additionally, there is a code climate page at https://codeclimate.com/github/samsheff/krakken
