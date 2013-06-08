@@ -1,5 +1,5 @@
 # require Krakken
-require '../lib/krakken.rb'
+require 'krakken'
 
 # Define our Config File
 config = { "ip_address" => "127.0.0.1", "port" => "4568", "launch_code" => "5658" }
