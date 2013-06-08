@@ -9,10 +9,6 @@ Krakken is a simple library for Ruby that allows for simple generation and parsi
 
 	gem install krakken
 
-and
-
-	require 'krakken'
-
 ### How Does it Work?
 
 If you want to parse or write a configuration file, create a new Krakken like so:
