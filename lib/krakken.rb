@@ -11,11 +11,11 @@ class Krakken
 			while (nextline = configfile.gets)
 				# Check to see if we are parsing a comment
 				if nextline[0] != "#"
-					# Remove the whitespace
-					nextline = nextline.gsub(/\s+/, '')
 					# Split the key from the value
 					# And add each to an array
 					splitvalues = nextline.split("=")
+					# Remove whitespace from the key only
+					splitvalues[0] = splitvalues[0].gsub(/\s+/, '')
 					splitvalues.each {|object| values << object}
 				end
 			end
